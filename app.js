@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('This is cs50'));
+app.get('/', (req, res) => res.send('My first AWS Codepipeline Beanstalk deployment!'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
